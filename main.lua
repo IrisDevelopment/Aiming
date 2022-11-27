@@ -1,5 +1,5 @@
 -- // Dependencies
-local Aiming = loadstring(game:HttpGet("https://paste.ee/r/3UhdY"))()
+local Aiming = loadstring(game:HttpGet("https://raw.githubusercontent.com/IrisDevelopment/Aiming/main/2"))()
 local AimingChecks = Aiming.Checks
 local AimingSelected = Aiming.Selected
 local AimLockSettings = Aiming.AimLock
