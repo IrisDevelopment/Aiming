@@ -14,7 +14,7 @@ if input.KeyCode == Key then
         game:service'Players'.LocalPlayer.Character:findFirstChildOfClass'Humanoid':LoadAnimation(game:GetService("ReplicatedStorage"):findFirstChild("ClientAnimations"):findFirstChild("Greet")):Stop()
         wait()
     for i, v in next, game:GetService("Players").LocalPlayer.Backpack:GetChildren() do
-        if v:IsA("Tool") and v.Name ~= "Combat" or v.Name ~= "[Wallet]" then
+        if v:IsA("Tool") and v.Name ~= "[Wallet]" or v.Name ~= "[Wallet]" then
             game:GetService("Players").LocalPlayer.Character:findFirstChildOfClass'Humanoid':EquipTool(v)
         end
     end
